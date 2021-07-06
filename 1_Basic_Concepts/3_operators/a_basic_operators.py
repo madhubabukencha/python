@@ -6,7 +6,6 @@ The operators +, -, * and / work just like in most other languages.
 parentheses (()) can be used for grouping.
 """
 
-
 # The "+" operator returns the sum of two operands
 print("2+5=%d" % (2+5))
 # The "-" operator returns the subtraction of two operands
