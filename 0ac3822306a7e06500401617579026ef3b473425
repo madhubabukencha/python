@@ -22,6 +22,30 @@
       },
       "revId": "0ac3822306a7e06500401617579026ef3b473425",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3302a6f1_95b60c22",
+        "filename": "5_Builtin_Functions/1_abs/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1019301
+      },
+      "writtenOn": "2021-08-09T15:51:52Z",
+      "side": 1,
+      "message": "Resolved in patchset 3",
+      "parentUuid": "61eae236_a54325d8",
+      "range": {
+        "startLine": 2,
+        "startChar": 69,
+        "endLine": 2,
+        "endChar": 70
+      },
+      "revId": "0ac3822306a7e06500401617579026ef3b473425",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
