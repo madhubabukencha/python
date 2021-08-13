@@ -1,0 +1,5 @@
+In Python a string is sequence of Unicode characters.
+Python strings are immutable so we can't modify and
+delete character from a string once they have created.
+But we can delete entire string like "del <str_var>" .
+

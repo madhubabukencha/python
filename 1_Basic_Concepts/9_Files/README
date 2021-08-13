@@ -1,0 +1,86 @@
+File is place where we can store or keep our data with some name
+Files are usually stored in non-volatile memory(Ex:- hard drive,ect..,)
+Since volatile memory(RAM) looses it data once computer is off.
+
+To work with files in python we have to perform following actions
+1) Open a file
+2) read or write or append
+3) Close
+
+***************
+* Open a file *
+***************
+Syntax: -
+file_object = open(file_name[, access_mode][, buffering] )
+
+file_name   : File name argument is string value that contains
+              name of the file that you want to access
+access_mode : The access mode defines the mode in the file has
+              to be open and the default file access mode is read
+buffering   : If the buffering value to set 0 then no buffering takes
+              place. If it is 1 or greater than 1 line then buffering performed
+              while accessing a file as per the indicated buffer size.
+              If buffer size is negative the it will shows the system
+              default behavior
+EX-
+f = open("sample.txt") # To open a file which is in current directory
+
+# To open a file other than current location
+f = open("C:/file/complete/path/sample.txt")
+
+Python default function open() is used to open a file and returns
+file object it's called handle
+
+Here is a list modes in which we can open a python file
+Mode                                       Description
+----------------------------------------------------------------------------
+r               It will Opens a file for "reading only" and the file pointer is
+                placed at the beginning of the file. This is the default mode.
+
+rb              It will Opens a file for reading only in "binary" format. The
+                file pointer is placed at the beginning of the file. This is
+                the default mode.
+
+r+              It will Opens a file for both "reading" and "writing". The file
+                pointer placed at the beginning of the file.
+
+rb+             Opens a file for both "reading and writing in binary" format. The file
+                pointer placed at the beginning of the file.
+
+w               It will opens a file for "writing" only. Overwrites the file if the file
+                exists. If the file does not exist, creates a new file for writing and
+                it common for all write mode combinations
+
+wb              It will Opens a file for "writing only in binary" format.
+
+w+              Opens a file for both "writing and reading".
+
+wb+             Opens a file for both writing and reading in binary format.
+
+a               Opens a file for appending. The file pointer is at the end of the file
+                if the file exists. That is, the file is in the append mode. If the file
+                does not exist, it creates a new file for writing and this functionality
+                common for all append mode combinations
+
+ab              Opens a file for appending in binary format.
+
+a+              Opens a file for both "appending and reading".
+
+ab+             Opens a file for both appending and reading in binary format.
+
+x           	Open a file for exclusive creation. If the file already exists,
+                the operation fails.
+
+t	            Open in text mode. (default)
+
+b	            Open in binary mode.
+
+**********************************
+* Reading, Writing and Appending *
+**********************************
+We can see it programs
+
+***********
+* Closing *
+***********
+We can see it programs

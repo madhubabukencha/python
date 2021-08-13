@@ -1,0 +1,39 @@
+# Python import works only once in one python file.
+  It import the data and store in the form catch.
+#####################################################
+>>> import my_sample
+user_name function calling from second_function
+User Name : Madhu Babu Kencha
+>>> import my_sample
+
+>>> import sys
+>>> sys.modules['my_sample']
+<module 'my_sample' from 'D:\\Programming_Languages\\Python\\python 3.7.0\\1_Basic_Concepts\\11_modules\\my_sample.py'>
+>>
+>>> del sys.modules['my_sample']
+>>> import my_sample
+user_name function calling from second_function
+User Name : Madhu Babu Kencha
+>>>
+########################################################de
+
+# If you create a new directory and if you try to import there the python module
+  wouldn't work. Because while importing it will check only certain paths.
+
+########################################################
+>>> import sys
+>>> sys.path
+>>> sys.path.append('Your_Path')
+or
+### We can set an environment variable
+>>> env PYTHONPATH="Your_Path" python
+##########################################################
+>>> import my_sample
+# if it is current file then
+>>> __name__
+'__main__'
+
+# If you import it
+>>> my_sample.__name__
+'my_sample'
+>>>
