@@ -1,6 +1,8 @@
 """
+Name   : Madhu Babu Kencha
+
 Functions reduces re-writing of code
-Functions are defined using def key keyword in python
+Functions are defined using 'def' key keyword in python
 """
 
 

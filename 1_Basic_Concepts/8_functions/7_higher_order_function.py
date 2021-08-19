@@ -4,11 +4,11 @@
 
 def higher_order(func, arg, status):
     print(status)
-    return func(func(arg))
+    return func(arg)
 
 
 def multiply_with_two(x):
     return x*2
 
 
-print("Result:%d" % higher_order(multiply_with_two, 3, "Function result"))
+print("%d" % higher_order(multiply_with_two, 3, "Function result:"))

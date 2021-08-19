@@ -3,6 +3,8 @@ Higher Order Function:
 Higher Order Function is function which takes a function as
 an argument and return a function as output
 """
+
+
 def increment(value):
     return value+1
 

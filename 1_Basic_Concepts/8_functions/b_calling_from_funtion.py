@@ -1,4 +1,9 @@
-# This program will show how to call one function from another function
+"""
+Name : Madhu Babu Kencha
+This program will show how to call one function from another function
+"""
+
+
 def function1():
     print("Hey I'm first function")
     # Calling second function in first function
