@@ -1,5 +1,7 @@
 """
-In this program we will see how to create lambda function syntax and usage
+Name   : Madhu Babu Kencha
+
+In this program we will see how to create lambda function syntax and its usage
 Functions created in this way are called anonymous
 
 Syntax
@@ -18,7 +20,8 @@ https://realpython.com/python-lambda/
 
 # Lambda function passed as a argument to other function
 def function1(func, arg):
-    return func(func(arg))
+    # return func(func(arg))
+    return func(arg)
 
 
 print("Lambda function as argument:", function1(lambda x: x**2, 3))

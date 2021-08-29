@@ -1,5 +1,9 @@
-# Higher order functions take other functions as
-# inputs and return them as result
+"""
+Name   : Madhu Babu Kencha
+
+Higher order functions take other functions as
+inputs and return them as result
+"""
 
 
 def higher_order(func, arg, status):

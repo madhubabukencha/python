@@ -45,8 +45,12 @@ def function2(a, c, *args):
 
 
 def function3(k, *args, n="IP ADDRESS:"):
+    """
+    If you have optional arguments, you can use *args any where
+    """
     print(k, n, sep="\n")
     print(*args, sep=":")
+
 
 if __name__ == "__main__":
     function1()
