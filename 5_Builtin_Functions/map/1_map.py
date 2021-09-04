@@ -8,8 +8,6 @@
     Syntax 
     ------
     map(function_object, iterable1,iterable2, ...)
-
-      
 """
 
 
@@ -31,7 +29,7 @@ print("Result with multiplication 5:",
 
 # Map operations over a dictionary
 dict_1 = [{'name': 'Madhu', 'age': 22, 'id': 1271262},
-          {'name': 'Rajeswari', 'age': 23, 'id': 1271272}]
+          {'name': 'Newton', 'age': 23, 'id': 1271272}]
 print(list(map(lambda x: x['name'], dict_1)))
 
 

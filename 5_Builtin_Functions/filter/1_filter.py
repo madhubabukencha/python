@@ -7,8 +7,8 @@ Syntax:
 filter(function, iterable)
 
 Parameters:
-Function: if this function returns true then only element in the iterable will print
-          if function 'None' is then it will check each element in the iterable. if
+Function: if this function returns "true" then only element in the iterable will print.
+          if function is 'None' then it will check each element in the iterable. if
           element is true then will print it or else it will wouldn't
 iterable: iterable which is to be filtered, could be sets, lists, tuples, or containers
           of any iterators
@@ -22,10 +22,13 @@ print("The result of filter function:",
 # map returns a iterable with function result
 # Here lambda function result is False, True, False, True, True
 result = list(map(lambda x: x > 18, ages))
-print(result)
+print("The result of map function: %s" % result)
 
 print("The result of filter function:",
       list(filter((lambda x: x * 18), ages)))
+
+print("The result of map function:",
+      list(map((lambda x: x * 18), ages)))
 
 # For None function case
 random_data = [1, 0, True, False, 12, 0, -1, 'a']
