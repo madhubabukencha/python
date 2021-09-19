@@ -25,6 +25,7 @@ def function():
 
 # Defining global variable
 x = 4
+name = "Newton"
 
 
 def main():
@@ -39,9 +40,18 @@ def main():
     x = x*2
     print("From function : ", x)
 
+# incase of immutable it is different
+def string_check():
+    name = "Ramanujan" * 2
+    print(name)
+
 
 if __name__ == '__main__':
     # see the difference in the output by uncommenting below line
     # main()
     print("global variable value : ", x)
     main()
+    print(name)
+    string_check()
+    print(name)
+
