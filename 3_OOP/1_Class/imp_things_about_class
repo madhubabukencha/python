@@ -1,0 +1,11 @@
+#####################################
+#   CONCEPT-1(object and class)     #
+#####################################
+>>> class Environment:
+...     pass
+...
+>>> Environment
+<class '__main__.Environment'>
+>>> Environment()
+<__main__.Environment object at 0x0000024F2A9D7CC8>
+>>>
