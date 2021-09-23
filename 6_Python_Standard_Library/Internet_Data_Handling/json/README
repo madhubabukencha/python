@@ -1,0 +1,12 @@
+"""
+Author      : Madhu Babu Kencha
+created on  : 15-Nov-2018
+"""
+ ---------------------------------
+| JavaScript Object Notation(json) |
+ ---------------------------------
+The json module used for converting in memory python objects to a
+serialized representation known as JavaScript Object Notation.
+The json mostly used for communication between the web server and
+client in a REST API. Python comes with a built-in package called
+json for encoding and decoding JSON data.

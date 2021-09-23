@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Bob",
+    "phone": "893488",
+    "email": "example@gmail.com",
+    "has_licence": true,
+    "Address": null
+  }
+]

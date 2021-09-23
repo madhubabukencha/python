@@ -1,0 +1,8 @@
+######################################
+Try below lines on the python terminal
+######################################
+>>>import timeit
+>>>timeit.timeit('[print(x) for x in range(100)]', number=1)
+<Observe the output here>
+>>>timeit.timeit('[print(x) for x in range(10)]', number=100)
+<Observe the output here>

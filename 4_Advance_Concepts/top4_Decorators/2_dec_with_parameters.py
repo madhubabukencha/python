@@ -16,7 +16,7 @@ def advance_division(func):
     return inner
 
 
-@advance_division()
+@advance_division
 def divide(a, b):
     return a/b
 

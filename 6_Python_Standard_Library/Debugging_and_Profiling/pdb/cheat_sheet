@@ -1,0 +1,23 @@
+# I will provide a useful console by using you can know what values storing in the
+  variable, we can execute for loops and we can see the data etc ..,
+  python -i <file_name> <agrs_if_any>
+
+# To get interactive Python debugging(pdb) console,
+  python -m <module_name> <file_name>
+  Eg :- python -m pdb 1_sample.py
+
+# To know all pdb command you can use below command:
+  help
+
+# To know information of command to can use like:
+  help <command>
+
+# To exit from the pdb mode:
+  quit (or) exit
+
+# At any point to run the script:
+  run
+
+# "next" and "step" command:
+  For example if have a for loop with statements, to get final output
+  use "next" command, to get each statement output use  "step" command

@@ -1,0 +1,1 @@
+<a href="https://book.pythontips.com/en/latest/context_managers.html#:~:text=26.-,Context%20Managers,block%20of%20code%20in%20between."> Context Manager</a>
