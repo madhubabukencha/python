@@ -20,13 +20,23 @@ https://realpython.com/python-lambda/
 
 # Lambda function passed as a argument to other function
 def function1(func, arg):
-    # return func(func(arg))
     return func(arg)
 
 
-print("Lambda function as argument:", function1(lambda x: x**2, 3))
+def function2(x, y):
+    return lambda z: x * y * z
 
 
-# Lambda function assigning to a variable
-age = lambda x: print("The Dog age is:%d" % x)
-age(10)
+if __name__ == '__main__':
+    print("Lambda function as argument:", function1(lambda x: x**2, 3))
+
+    # it is equal to
+    # result = function2(2, 3)
+    # print(result(2))
+    result = function2(2, 3)(2)
+    print(result)
+
+    # Lambda function assigning to a variable
+    age = lambda x: print("The Dog age is:%d" % x)
+    age(10)
+

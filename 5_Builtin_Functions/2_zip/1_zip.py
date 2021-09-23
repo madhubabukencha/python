@@ -20,9 +20,17 @@ names = ["Madhu Babu", "Rajini", "Chiru", "Prabhas"]
 
 # Using zip() to map iterators
 mapped = zip(series, movie_names, names)
-
+# printing zip function result
+print(f"Zip function result: {mapped=}")
 # Converting values to print as set
 printable_mapped_set = set(mapped)
 
 print("Zipped iterable set values : ")
 print(printable_mapped_set)
+
+# We will try with some mismatch lists
+names = "hel"
+numbers = (1, 2, 3, 4, 5)
+wishes = ['hi', 'ks', 'ka', 'ta']
+result = list(zip(names, numbers, wishes))
+print(result)
