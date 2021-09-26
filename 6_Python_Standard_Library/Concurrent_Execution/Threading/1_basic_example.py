@@ -7,6 +7,7 @@ start = time.perf_counter()
 def time_counter():
     print("Sleeping 1 second")
     time.sleep(1)
+    print(f"Thread: {threading.current_thread()}")
     print("Sleeping is done")
 
 
