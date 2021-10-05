@@ -25,6 +25,6 @@ if __name__ == '__main__':
     print(employee_1.email)
     print(employee_1.fullname)
 
-    employee_1.fullname = "Mahesh Babu Kencha"
+    employee_1.fullname = "Mahesh Babu"
     print(employee_1.email)
     print(employee_1.fullname)

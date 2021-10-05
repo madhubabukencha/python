@@ -16,9 +16,12 @@ def main():
 
     # Creating date
     now = datetime.now()
-    birth_day = datetime(1996, 5, 13, hour=11, minute=59, second=59)
+    birth_day = datetime(1996, 5, 13, hour=8, minute=59, second=59)
     time = now.year-birth_day.year
     print(time)
+    print(abs(now.month-birth_day.month))
+    print(abs(now.day-birth_day.day))
+    print(now-birth_day)
 
 
 if __name__ == '__main__':

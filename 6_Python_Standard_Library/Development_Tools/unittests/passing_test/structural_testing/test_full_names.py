@@ -16,7 +16,6 @@ import unittest
 import compute
 
 
-
 class TestFullNames(unittest.TestCase):
     def test_full_name(self):
         self.assertEqual(compute.get_full_name("Madhu Babu", "Kencha"), "Madhu Babu Kencha")
