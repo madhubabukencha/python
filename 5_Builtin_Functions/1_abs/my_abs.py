@@ -16,9 +16,10 @@ print(f"Absolute value of float {y_axis}: {abs(y_axis)}")
 
 # Absolute value of a complex number
 # In case complex numbers, abs() returns it's magnitude
-# magnitude of 3-4j ==> |3-4j|^2 = 3^2 + 4^2
-#                   ==> |3-4j| = sqrt(9+16)
-#                   ==> |3-4j| = 5.0
+# magnitude of 3-4j ==> |3-4j|^2
+#                   ==> 3^2 + 4^2
+#                   ==> sqrt(9+16)
+#                   ==> 5.0
 
 complex_number = 3-4j
 print(f"Absolute value of complex number {complex_number}: {abs(complex_number)}")
