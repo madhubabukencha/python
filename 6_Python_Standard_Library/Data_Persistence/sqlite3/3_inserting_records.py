@@ -2,7 +2,9 @@
 Name: Madhu Babu Kencha
 Date: 28-03-2021
 
-In this program we will learn how to insert multiple records to
+In this program we will learn how to insert multiple records.
+Note: Make sure you execute create_table.py program before
+executing this programm.
 """
 import sqlite3
 
@@ -18,8 +20,11 @@ records = [
     (120003, "Sachin", 50, "M", 500050, "India")
 ]
 insert_cmd = "INSERT INTO EMPLOYEE VALUES (?, ?, ?, ?, ?, ?)"
-
-cursor.executemany(insert_cmd, records)
-connection.commit()
+try:
+    cursor.executemany(insert_cmd, records)
+    connection.commit()
+except Exception as e:
+    print(f"Error Message:{e}")
+    connection.rollback()
 connection.close()
 
