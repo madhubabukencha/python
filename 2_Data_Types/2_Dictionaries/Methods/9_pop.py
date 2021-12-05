@@ -17,6 +17,11 @@ element = dictionary.pop('Madhu')
 print(F"Element that was removed: {element}")
 print(f"Dictionary after pop:{dictionary} \n")
 
+element = dictionary.pop('John', 500)
+print(F"Element that was removed: {element}")
+print(f"Dictionary after pop:{dictionary} \n")
+
+
 # Deleting an element which not present in dictionary
 # with default value
 element = dictionary.pop('Rajeswari', 200)

@@ -5,8 +5,8 @@ else it will insert the key with value in the dictionary
 syntax:
 dictionary.setdefault(key, value)
 key   --> key to get value, if key not present then it will insert that in the dictionary
-value -->  key with a value default_value is inserted to the dictionary if the key
-           is not in the dictionary. If not provided, the default_value will be None.
+value -->  key with a value(or default_value) is inserted to the dictionary if the key
+           is not in the dictionary. If value not provided, the default_value will be None.
 """
 marks = {'Madhu': 100, 'John': 45, 'Martin': 67}
 # if key is present in the dictionary

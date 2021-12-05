@@ -28,7 +28,5 @@ with sqlite3.connect(db_filename) as conn:
         insert into task (details, status, deadline, project)
         values ("Fix Bugs", "New", "2021-5-20", "TODO");
         """)
-
-
     else:
         print("DATABASE EXITS, ASSUMES SCHEMA DOES TO")

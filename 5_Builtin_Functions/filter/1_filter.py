@@ -24,6 +24,8 @@ print("The result of filter function:",
 result = list(map(lambda x: x > 18, ages))
 print("The result of map function: %s" % result)
 
+# As lambda function not returning anything it will
+# just all elements which are not false
 print("The result of filter function:",
       list(filter((lambda x: x * 18), ages)))
 
