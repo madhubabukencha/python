@@ -24,7 +24,6 @@ def casefold_string(string):
 
 if __name__ == '__main__':
     messages = ["PYTHON IS VERY BEST LANGUAGE", "%% jdks Tho kksRRRs", "ß"]
-    messages.reverse()
     for message in messages:
         print(f"Original String: {message}")
         casefold_string(message)

@@ -1,12 +1,10 @@
 """
-1)A string is sequence of characters. A character is just a symbol
-2)Even-though we are able to see the character on scree, computer stores
-  them internally in 0's and 1's
-3)The process of converting a character to number is call encoding.
-  And the process process called decoding
-4)In python, a string is a sequence of unicode character. Unicode was
-  introduced to include every character in all languages and to bring
-  uniformity in encoding.
+1) A string is sequence of characters. A character is just a symbol
+2) Even-though we are able to see the character on screen, computer stores
+   them internally in 0's and 1's
+3) In python, a string is a sequence of unicode character. Unicode was
+   introduced to include every character in all languages and to bring
+   uniformity in encoding.
 """
 
 
@@ -43,6 +41,8 @@ def accessing():
     print("name[3:]=", name[3:])
     print("name[6:-1]=", name[6:-1])
     print("name[::-1]=", name[::-1])
+    print("name[-1:]=", name[-1:])
+    print("name[:-1]=", name[:-1])
 
 
 if __name__ == '__main__':
