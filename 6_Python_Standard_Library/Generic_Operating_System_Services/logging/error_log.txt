@@ -1,37 +1,9 @@
-2020-02-18 06:03:35,699  root  DEBUG : Staring Program
-2020-02-18 06:03:35,700  root  DEBUG :  when i is 1 total is 1
-2020-02-18 06:03:35,701  root  DEBUG :  when i is 2 total is 2
-2020-02-18 06:03:35,701  root  DEBUG :  when i is 3 total is 6
-2020-02-18 06:03:35,702  root  DEBUG :  when i is 4 total is 24
-2020-02-18 06:03:35,703  root  DEBUG :  when i is 5 total is 120
-2020-02-18 06:03:35,703  root  DEBUG :  when i is 6 total is 720
-2020-02-18 06:03:35,703  root  DEBUG :  when i is 7 total is 5040
-2020-02-18 06:03:35,704  root  DEBUG : Ending Program
-2020-03-23 00:20:09,134  root  DEBUG : Staring Program
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 1 total is 1
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 2 total is 2
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 3 total is 6
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 4 total is 24
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 5 total is 120
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 6 total is 720
-2020-03-23 00:20:09,134  root  DEBUG :  when i is 7 total is 5040
-2020-03-23 00:20:09,135  root  DEBUG : Ending Program
-2021-02-09 18:33:26,080  root  DEBUG : Staring Program
-2021-02-09 18:33:26,293  root  DEBUG :  when i is 1 total is 1
-2021-02-09 18:33:26,293  root  DEBUG :  when i is 2 total is 2
-2021-02-09 18:33:26,293  root  DEBUG :  when i is 3 total is 6
-2021-02-09 18:33:26,301  root  DEBUG :  when i is 4 total is 24
-2021-02-09 18:33:26,301  root  DEBUG :  when i is 5 total is 120
-2021-02-09 18:33:26,301  root  DEBUG :  when i is 6 total is 720
-2021-02-09 18:33:26,302  root  DEBUG :  when i is 7 total is 5040
-2021-02-09 18:33:26,302  root  DEBUG : Ending Program
-2021-02-09 18:35:37,191  root  WARNING : Staring Program
-2021-02-09 18:36:35,683  root  DEBUG : Staring Program
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 1 total is 1
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 2 total is 2
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 3 total is 6
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 4 total is 24
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 5 total is 120
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 6 total is 720
-2021-02-09 18:36:35,683  root  DEBUG :  when i is 7 total is 5040
-2021-02-09 18:36:35,683  root  DEBUG : Ending Program
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG : Staring Program
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 1 total is 1
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 2 total is 2
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 3 total is 6
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 4 total is 24
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 5 total is 120
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 6 total is 720
+2022-03-20 12:13:39,979  root 12444 MainThread DEBUG :  when i is 7 total is 5040
+2022-03-20 12:13:39,980  root 12444 MainThread DEBUG : Ending Program

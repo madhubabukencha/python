@@ -1,2 +1,7 @@
-# python 3.9.x
-Treasure for Python 3.9.x snippets
+# python 3.10.x
+
+This repository contains scripts which are compatible with
+python 3.10.x. These scripts help us to get some idea on
+Python.
+
+Keep learning my dear friends 🙂
