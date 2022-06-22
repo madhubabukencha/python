@@ -49,8 +49,8 @@ class Animal:
         # Now it is specific to one instance(object) call
         # self.instance_count += 1
 
-        # It is for all instance(all objects) call
-        # So it will increases as per the instances that we have
+        # It is for all instance(all objects) calls
+        # So it will increases as instances of this increases increases
         Animal.instance_count += 1
         
     def message(self):

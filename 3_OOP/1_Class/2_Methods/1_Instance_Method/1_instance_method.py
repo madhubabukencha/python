@@ -33,4 +33,5 @@ print(madhu.sings("Nicely"))
 print(madhu.dance())
 
 # Since we are calling without an instance it through TypeError
+# TypeError: Person.sings() missing 2 required positional arguments: 'self' and 'comment'
 # print(Person.sings())
