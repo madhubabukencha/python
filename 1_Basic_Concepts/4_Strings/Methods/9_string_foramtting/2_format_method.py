@@ -38,3 +38,6 @@ print("The values are hexadecimal: {0:X}, octal: {0:o}, binary: {0:b}".format(10
 
 # we can also use short cut f instead of format method
 print(f"The values are hexadecimal: {x:x}, octal: {x:o}, binary: {x:b}")
+
+# I think these are introduced in 3.9.x
+print(f"{x=} {y=}")
