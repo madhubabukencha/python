@@ -12,7 +12,7 @@ STOP_DRINKING = True
 
 
 def drink_water():
-    name = threading.currentThread().getName()
+    name = threading.current_thread().name
     drink_count = 0
     while STOP_DRINKING:
         drink_count += 1

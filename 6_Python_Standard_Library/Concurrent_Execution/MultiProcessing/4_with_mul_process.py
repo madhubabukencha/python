@@ -4,8 +4,8 @@ import time
 start = time.perf_counter()
 
 
-def do_count(sec):
-    print(f"Sleeping {sec}")
+def do_count(sec, name, style):
+    print(f"Sleeping {sec, name, style}")
     time.sleep(sec)
     return f"Sleeping {sec} is done"
 
@@ -13,7 +13,7 @@ def do_count(sec):
 if __name__ == "__main__":
     with concurrent.futures.ProcessPoolExecutor() as executor:
         secs = [5, 4, 3, 2, 1]
-        results = [executor.submit(do_count, sec) for sec in secs]
+        results = [executor.submit(do_count, sec, "madhu", "king") for sec in secs]
 
         for f in concurrent.futures.as_completed(results):
             print(f.result())

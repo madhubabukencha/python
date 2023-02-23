@@ -1,6 +1,6 @@
 """
-This program teaches you how to a create multithreading program.
-It would advisable to know the difference between a thread and
+This program teaches you how to create multithreading program.
+It would be advisable to know the difference between a thread and
 a process before starting to understanding this script.
 https://www.guru99.com/difference-between-process-and-thread.html
 """

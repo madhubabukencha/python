@@ -1,7 +1,7 @@
 """
 The pop() method removes and return the element at a given index
-from the list. If the index passed to the pop() method out of range
-it return IndexError. The parameter passed to the pop() method is
+from the list. If you pass index which is not present in the list then
+it will return IndexError. The parameter passed to the pop() method is
 optional. If no value passed, then it will take -1 by default. Which
 means it will removes last element from the list
 
