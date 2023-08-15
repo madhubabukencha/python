@@ -1,6 +1,6 @@
 def casefold_string(string):
     """
-    The casefold() method removes all case distinctions present in a string
+    The casefold() method removes all case distinctions present in a string.
     It is used for caseless matching, i.e. ignores cases when comparing.
 
     The casefold() method is an aggressive lower() method which converts

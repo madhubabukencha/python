@@ -18,14 +18,14 @@ def multi_with_two(x):
 nums = [1, 2, 3, 4, 5]
 print("The result of map function with multiplication 2:",
       # Here function returns 2, 4, 6, 8, 10
-      list(map(multi_with_two, nums)))
+      list(map(multi_with_two, nums)), end="\n")
 
-print("The result of map function with in-build function 'type':",
-      list(map(type, nums)))
+# You can also use it as type converter
+print(F"Converting num to str: {list(map(str, nums))}")
+print("Checking type of elements:", list(map(type, [2, "first", 3.456, [3, 4, 5]])), end="\n")
 
 # With map and lambda expression
-print("Result with multiplication 5:",
-      list(map(lambda x: x*5, nums)))
+print("Result with multiplication 5:", list(map(lambda x: x*5, nums)))
 
 # Map operations over a dictionary
 dict_1 = [{'name': 'Madhu', 'age': 22, 'id': 1271262},

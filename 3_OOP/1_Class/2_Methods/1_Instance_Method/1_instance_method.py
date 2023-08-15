@@ -2,8 +2,9 @@
 Name : Madhu Babu Kencha
 Date : 25-12-2018
 
-Instance method is a method which takes 'self' as it's first argument.
-To call an instance method we required an instance.
+Instance methods are methods which takes 'self' as it's first argument.
+To call an instance method we must require an instance. Calling instance
+methods directly from Class causes "TypeError".
 """
 
 

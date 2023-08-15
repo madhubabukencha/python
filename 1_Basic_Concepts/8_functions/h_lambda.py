@@ -18,7 +18,6 @@ https://realpython.com/python-lambda/
 """
 
 
-# Lambda function passed as a argument to other function
 def function1(func, arg):
     return func(arg)
 
@@ -28,15 +27,24 @@ def function2(x, y):
 
 
 if __name__ == '__main__':
-    print("Lambda function as argument:", function1(lambda x: x**2, 3))
-
-    # it is equal to
-    # result = function2(2, 3)
-    # print(result(2))
-    result = function2(2, 3)(2)
-    print(result)
+    # Simple implementation of lambda
+    exp = lambda x, y: x**y  # PEP 8: E731 do not assign a lambda expression, use a def
+    print(F"Exponential value 2 power 4: {exp(3, 2)}")
 
     # Lambda function assigning to a variable
     age = lambda x: print("The Dog age is:%d" % x)
     age(10)
+
+    # Lambda function passed as argument to other function
+    print("Lambda function as argument:", function1(func=lambda x: x**2, arg=3))
+
+    # it is equal to
+    # result = function2(2, 3)
+    # print(result(2))
+    # >> > x = lambda z: 2 * 3 * z
+    # >> > x(2)
+
+    result = function2(2, 3)(2)
+    print(result)
+
 

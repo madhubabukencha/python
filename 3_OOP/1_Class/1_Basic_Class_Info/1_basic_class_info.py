@@ -2,13 +2,13 @@
 Author     : Madhu Babu Kencha
 created on : 22-09-2018
 
-Approaching problems by creating an object are called Object Oriented
+Approaching problems by creating an object is called Object-Oriented
 programming.
 An object(example: parrot ) have two properties
    I)   Attributes ---> Name, Age, Color, Height
    II)  Behaviour  ---> Singing, Dancing, playing
 
-A class is a blue print of an object. "class" keyword is
+A class is a blueprint of an object. "class" keyword is
 used to create a class. From class we construct instances.
 An instance is a specific object created from particular
 class. Below a class created with name Animal.
@@ -77,10 +77,10 @@ print(f"Instance count before object creation: {Animal.instance_count}")
 lion = Animal("Lion", 20, 400)
 # output: <class '__main__.Animal'>
 # print(type(lion))
-lion_1 = Animal("Lion", 20, 400)
 
+lion_1 = Animal("Lion", 20, 400)
 # Instance count after creating object
-# Output is 2 because we have two object
+# Output is 2 because we have two objects
 print(f"Instance count After object creation: {Animal.instance_count}")
 
 # Accessing class attributes
@@ -89,7 +89,7 @@ print("Below are {} details".format(lion.__class__.species))
 
 # Calling class method
 lion.message()
-# Another way of calling method
+# Another way of calling method by passing object as input
 # Animal.message(lion)
 
 # Accessing instance attributes

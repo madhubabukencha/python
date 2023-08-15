@@ -4,7 +4,7 @@ Date   : 03-may-2020
 
 In this program we are going to see how to use classmethod()
 
-Use of classmethod():
+Usage of classmethod():
 classmethod() function is used in factory design patterns
 where we want to call many functions with the class name
 rather than object.
