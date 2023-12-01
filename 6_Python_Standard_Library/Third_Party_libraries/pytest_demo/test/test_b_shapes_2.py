@@ -9,8 +9,12 @@ def my_rect():
     yield rect
 
     # teardown part(optional)
-    del Rectangle
+    del rect
 
 
 def test_area(my_rect):
     assert my_rect.area() == (10 * 20)
+
+
+def test_perimeter(my_rect):
+    assert my_rect.perimeter() == (2 * 10) + (2 * 20)
