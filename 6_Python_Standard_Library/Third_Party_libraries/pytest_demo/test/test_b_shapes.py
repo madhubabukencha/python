@@ -13,6 +13,11 @@ class based function.
 NOTE: on terminal you have run: pytest -s test_b_shapes.py
 -s argument say to print the print statements
 For more details read setup_teardown_methods.md
+
+Difference between area and perimeter:
+https://www.khanacademy.org/math/geometry-home/geometry-area-perimeter/geometry-perimeter/v/perimeter-and-area-basics
+Perimeter: Measures the outside shape size
+Area: Measures the inside space
 """
 import pytest
 from ..source.b_shapes import Circle
