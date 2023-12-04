@@ -4,6 +4,7 @@ These are the basic function based test cases
 
 import pytest
 from ..source import a_help_functions as my_functions
+import time
 
 
 def test_add():
@@ -28,3 +29,10 @@ def test_divide_zero():
     """
     with pytest.raises(ZeroDivisionError):
         my_functions.divide(num_1=10, num_2=0)
+
+
+@pytest.mark.slow
+def test_very_slow():
+    time.sleep(5)
+    result = my_functions.add(10, 5)
+    assert result == 15
