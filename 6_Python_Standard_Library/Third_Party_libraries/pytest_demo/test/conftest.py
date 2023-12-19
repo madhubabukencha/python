@@ -1,5 +1,6 @@
 """
-This is a global test file. The fixture
+This is a global test file. which contains all global function and
+configurations.
 """
 import pytest
 from ..source.b_shapes import Rectangle

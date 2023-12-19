@@ -55,3 +55,8 @@ the test configuration.
 In summary, while `conftest.py` is commonly used for defining fixtures,
 it is a versatile configuration file that can be used for various
 purposes to customize and configure your pytest tests.
+
+**Example code can be found in below file:**
+```commandline
+6_Python_Standard_Library/Third_Party_libraries/pytest_demo/test/test_b_shapes_2.py
+```

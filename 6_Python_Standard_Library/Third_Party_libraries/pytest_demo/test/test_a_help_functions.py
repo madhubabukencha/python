@@ -36,3 +36,13 @@ def test_very_slow():
     time.sleep(5)
     result = my_functions.add(10, 5)
     assert result == 15
+
+
+@pytest.mark.skip(reason="This feature is currently broken!")
+def test_add_2():
+    assert my_functions.add(1, 0) == 7
+
+
+@pytest.mark.xfail(reason="number value should not divided with zero")
+def test_divide_2():
+    assert my_functions.divide(4, 0)
