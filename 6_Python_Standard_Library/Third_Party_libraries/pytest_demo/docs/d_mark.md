@@ -77,4 +77,6 @@ based on criteria that are relevant to your testing needs.
 **Examples for mark can be found in below file:**
 ```commandline
 6_Python_Standard_Library/Third_Party_libraries/pytest_demo/test/test_a_help_functions.py
+# for parametrized mark concept
+6_Python_Standard_Library/Third_Party_libraries/pytest_demo/test/test_square.py
 ```

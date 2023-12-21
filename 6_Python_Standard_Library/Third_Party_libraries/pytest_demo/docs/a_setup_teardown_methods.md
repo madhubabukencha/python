@@ -74,6 +74,4 @@ each test method in the test class.
 **Example code can be found in below file:**
 ```commandline
 6_Python_Standard_Library/Third_Party_libraries/pytest_demo/test/test_b_shapes.py
-# for parametrized mark concept
-6_Python_Standard_Library/Third_Party_libraries/pytest_demo/test/test_square.py
 ```
