@@ -1,13 +1,17 @@
 # Factory
-Factory design patterns are creational design patterns that focus on object creation. They provide a central location for creating objects instead of scattered creation logic throughout the code. This central location, called a factory, is responsible for deciding which type of object to create based on some criteria and then returning the newly created object. Decoupling of object creation from client code is a core principle of the Factory Method
-Pattern. It falls under the Gang of Four (GoF) design patterns and is widely used to promote loose
-coupling within an application.
+Factory method is a creational design pattern that focuses on object creation.
+They provide a central location for creating objects instead of scattered creation
+logic throughout the code. This central location, called a factory, is responsible
+for deciding which type of object to create based on some criteria and then returning
+the newly created object. Decoupling of object creation from client code is a core
+principle of the Factory Method Pattern. It falls under the Gang of Four (GoF) design
+patterns and is widely used to promote loose coupling within an application.
 
-**Main components of the Factory Design Pattern**:
+**Main components of the Factory Method Pattern**:
 - Product Interface/Class: Defines the common characteristics of all objects to be created.
 - Concrete Product Classes: Implement the Product interface/class for different types of objects.
 - Factory Class: Acts as the central control system, responsible for deciding and creating objects based on specific criteria.
-- The client code that needs an object but does not specify the concrete class of the object. It relies on the factory method or interface to create the object.
+- The client code that needs an object does not specify the concrete class of the object. It relies on the factory method or interface to create the object.
 
 **Benefits**:
 - Loose Coupling: The code using the factory doesn't need to know about the specific concrete product classes being created. This makes the code more flexible and adaptable.

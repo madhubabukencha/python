@@ -1,3 +1,8 @@
+"""
+NOTE:
+To run this program, your mysql server or postgres server need to be
+running and ensure all provided credential are correct.
+"""
 from abc import ABC, abstractmethod
 import pymysql
 import psycopg2
@@ -7,11 +12,14 @@ import os
 password = os.getenv("PASSWORD")
 print(f"PASSWORD: {password}")
 
+
 # Product Class
 class DatabaseConnector(ABC):
     """
-    Defines the common interface for all Databases that can be created by the factory.
-    It's often abstract, meaning it can't be instantiated directly.
+    Defines the common interface for all Databases that
+    can be created by the factory.
+    It's often abstract, meaning it can't be instantiated
+    directly.
     """
     @abstractmethod
     def connect():
@@ -21,7 +29,8 @@ class DatabaseConnector(ABC):
 # Concrete Product-1
 class MySQLConnector(DatabaseConnector):
     """
-    Implementing the DatabaseConnector interface, defining specific behaviors for each type of connector.
+    Implementing the DatabaseConnector interface, defining specific
+    behaviors for each type of connector.
     """
     def connect(self, **kwargs):
         try:
@@ -37,7 +46,8 @@ class MySQLConnector(DatabaseConnector):
 # Concrete Product-2
 class PostgresConnector(DatabaseConnector):
     """
-    Implementing the DatabaseConnector interface, defining specific behaviors for each type of connector.
+    Implementing the DatabaseConnector interface, defining specific
+    behaviors for each type of connector.
     """
     def connect(self, **kwargs):
         try:

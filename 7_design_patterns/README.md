@@ -43,13 +43,24 @@ accomplish a common goal.
 - Consequeces
 
 1. Participants<br>
-Participants in a design pattern are the classes or elements involved in forming the pattern. Each participant plays a distinct role in achieving the design pattern's objectives.
+Participants in a design pattern are the classes or elements involved in
+forming the pattern. Each participant plays a distinct role in achieving 
+the design pattern's objectives.
 
 2. Quality Attributes<br>
-Quality attributes are fundamental aspects that influence the entire software and architectural solution. These attributes encompass non-functional requirements such as usability, modifiability, reliability, performance, and more. Addressing these quality attributes is vital for the overall success of a design pattern.
+Quality attributes are fundamental aspects that influence the entire
+software and architectural solution. These attributes encompass 
+non-functional requirements such as usability, modifiability, reliability,
+performance, and more. Addressing these quality attributes is vital for the
+overall success of a design pattern.
 
 3. Forces<br>
-Forces within a design pattern are the factors or conditions that influence the decisions made during the design process. Identifying and understanding these forces help in creating a robust and adaptive design that can handle various scenarios.
+Forces within a design pattern are the factors or conditions that influence
+the decisions made during the design process. Identifying and understanding
+these forces help in creating a robust and adaptive design that can handle
+a various scenarios.
 
 4. Consequences<br>
-Consequences are the outcomes or results of implementing a design pattern. It is essential to analyze and comprehend these consequences to ensure that the chosen design pattern aligns with the project's overall goals and requirements.
+Consequences are the outcomes or results of implementing a design pattern. 
+It is essential to analyze and comprehend these consequences to ensure that
+the chosen design pattern aligns with the project's overall goals and requirements.
