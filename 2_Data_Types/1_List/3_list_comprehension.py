@@ -16,9 +16,9 @@ matrix = [[1, 2], [3, 4], [5, 6], [7, 8]]
 transpose_matrix = [[row[i] for row in matrix] for i in range(2)]
 print(transpose_matrix)
 
-# print number which are only divisible by 7, 5
+# print number which are only divisible by either 5 and 7
 answer = [num for num in range(1, 100)
-          if True in [True for divisor in [7, 5] if num % divisor == 0]]
+          if all([True if (num%divisor)==0 else False for divisor in [7, 5]])]
 print(answer)
 
 # You can keep as many for loops as you can like this
