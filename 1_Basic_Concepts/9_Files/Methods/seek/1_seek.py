@@ -7,7 +7,7 @@ Syntax: f.seek(offset, from_what), where f is file pointer
 
 Parameters:
 Offset: Number of positions to move forward
-from_what: It defines point of reference(optional, and default is o)
+from_what: It defines point of reference(optional, and default is 0)
 
 The reference point is selected by the from_what argument. It accepts three values:
 
