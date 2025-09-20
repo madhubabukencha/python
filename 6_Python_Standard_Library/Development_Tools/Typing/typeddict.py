@@ -14,6 +14,7 @@ Benefits of Using TypedDicts:
 - Type Safety: Helps catch type-related errors during development.
 - Improved Readability: Makes it clear what structure a dictionary should have.
 - Better Tooling Support: Enhances the capabilities of type checkers and IDEs.
+- Documentation: Serves as a form of documentation for the expected structure of data.y
 
 Checking with Mypy:
 $ mypy typeddict.py
